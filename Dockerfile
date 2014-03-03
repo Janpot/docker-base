@@ -10,7 +10,7 @@ ENV NODE_VERSION 0.10.24
 #
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install -y curl wget build-essential monit logrotate libfontconfig1 ntp
+RUN apt-get install -y curl wget build-essential monit logrotate libfontconfig1 ntp git
 
 #
 # Install nginx
